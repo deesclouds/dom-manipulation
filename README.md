@@ -32,7 +32,7 @@ DOM manipulation using JavaScript methods.
 [FreeCodeCamp: Callback Functions] (https://www.freecodecamp.org/news/javascript-callback-functions-what-are-callbacks-in-js-and-how-to-use-them/)
 
 ## Special Thanks
-Thanks to Kameron Watts & Cappreccia who helped me when I was struggling to understand some concepts of simplifying my code. 
+Thanks to @xoLadybugs, Kameron Watts & Cappreccia who helped me when I was struggling to understand some concepts of simplifying my code. 
 
 Thanks to Rocky, Sharynne for being awesome instructors and being available to always help. 
 
