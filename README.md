@@ -10,6 +10,10 @@ Uses the getBoundingClientRect() method to check if a section is in the viewport
 
 Then uses the scrollIntoView() method to smoothly scroll to the section clicked from the corresponding nav link within the navigation menu.
 
+**Link to live project:** https://shimmering-queijadas-f8656a.netlify.app/
+
+<p align="center" width="800" height="600"><img src="landing-page.gif" alt="landing-page"/></p> 
+
 ## How It's Made:
 *Tech used:*  HTML, CSS, JavaScript
 - Includes some fun lorem ipsum from:
