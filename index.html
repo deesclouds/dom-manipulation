@@ -1,0 +1,80 @@
+<!DOCTYPE >
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Manipulating the DOM</title>
+  
+  <!-- Load Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Archivo:wght@300&family=Bungee+Shade&family=Nabla&display=swap" rel="stylesheet">
+
+  <!-- Load Styles -->
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <!-- HTML Follows BEM naming conventions 
+  IDs are only used for sections to connect menu anchors to sections -->
+  <header class="page__header">
+    <nav class="navbar__menu">
+      <!-- Navigation starts as empty UL that will be populated with JS -->
+      <ul id="navbar__list">
+        <!-- append li items here -->
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <header class="main__hero">
+      <h1>Landing Page</h1>
+    </header>
+    <!-- Each Section has an ID (used for the anchor) and 
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav.
+    The first section is set to active class by default -->
+
+    <!-- id or data-nav display in menu items -->
+    <section id="section1" data-nav="Section 1" class="froggy">
+      <div class="landing__container">
+        <h2>Section 1</h2>
+        <p>Cupcake ipsum dolor sit amet bear claw cotton candy apple pie cake. Tart caramels soufflé I love chupa chups. Bonbon I love I love marshmallow gummi bears. Pastry candy canes sugar plum brownie lemon drops bear claw croissant danish. Pie caramels chupa chups fruitcake caramels. Cake pie pastry toffee tart. Carrot cake I love muffin pie fruitcake muffin pie I love cake. I love sweet roll cotton candy marshmallow powder. Fruitcake lollipop pie cookie dragée. Brownie I love caramels halvah tiramisu marzipan bear claw brownie. Dessert bear claw jujubes sesame snaps oat cake jelly caramels candy canes. Cotton candy jelly I love chupa chups I love. Sesame snaps chupa chups sweet roll pudding bonbon toffee jelly-o oat cake.</p>
+
+        <p>Cupcake ipsum dolor sit amet bear claw cotton candy apple pie cake. Tart caramels soufflé I love chupa chups. Bonbon I love I love marshmallow gummi bears. Pastry candy canes sugar plum brownie lemon drops bear claw croissant danish. Pie caramels chupa chups fruitcake caramels. Cake pie pastry toffee tart. Carrot cake I love muffin pie fruitcake muffin pie I love cake.</p>
+      </div>
+    </section>
+    <section id="section2" data-nav="Section 2">
+      <div class="landing__container">
+        <h2>Section 2</h2>
+        <p>Arabica Acerbic Affogato Aftertaste Aged Americano And Aroma robust Aromatic, cup spice Blue rich go trifecta kopi-luwak cortado foam, body eu ristretto acerbic sugar shop filter wings. Cream eu wings beans decaffeinated Acerbic au ristretto Au as, lungo to Beans percolator variety caramelization arabica press mountain whipped, rich Brewed medium est french redeye trifecta mocha. Viennese percolator cream sugar java flavour Con arabica Aftertaste Americano sweet beans, organic kopi-luwak Aged dark roast Aroma shot chicory mountain Acerbic black, instant et go Blue doppio press And saucer Affogato origin. Est shop aroma carajillo filter chicory aged And panna lungo, arabica press qui lait crema acerbic At skinny caffeine, white latte body As frappuccino caramelization pot froth.</p>
+
+        <p>Americano Bar sugar trifecta medium bar foam sit java at, mocha robust blue panna body skinny froth lungo, Brewed qui french rich lait black mug Beans. Mountain cream shop qui redeye mocha white Con, arabica that acerbic pumpkin lait Black, extra skinny bar barista Acerbic black. Grinder instant crema saucer Acerbic aged shop roast ristretto ut, milk shot foam Aroma aftertaste blue brewed.</p>
+      </div>
+    </section>
+    <section id="section3" data-nav="Section 3">
+      <div class="landing__container">
+        <h2>Section 3</h2>
+        <p>Acaiberries gojiberries acid LSD ayahuasca acroyoga activatedcharcoal acunpuncture, ponytail flaxseedoil nonviolentcommunication nonprofit somatic hackysack kali, earthday yerbamatte lovingkindness doula hooping all-natural. Trippingon whattheplanetreallyneeds sacredintegration master firetending thirdeye djembe hempseed east-west nativeamericanancestry reverseosmosis sustainable, spiritualawakening Esalen massagetherapist leavenotrace fractalnatureof earthmother ancient watsu asana pisces, ontheplaya carob taurus peacockfeather spinalawareness blessed monogamish kalesalad triplelibra beekeeping. Lavender psychicsurgery gojiberries leavenotrace craniosacraltherapy Harbin homeopathy capricorn onetaste marinese, vinyasa asana spiraldynamics SpiritRock biodiesel triplelibra hooping rolfing quantumhealing, blessed maypole cleansing spokenword toendsuffering flaxseedcrackers folkmusic thewisdomofyourbody. </p>
+
+        <p>Essential malabeads toxins herbalmedicine solstice juicy hooping herbal harmfulelectromagneticfields, nectar giftingcircle papasan innatecapacity leo rawcacao quantum. Heart-opening coconutwater hooping bodyworker watsu divinefeminine earth dreamwork veganism, synchronicity equinox rootchakra stevia peace leo tofu soulmate fullmoon, backjack short-grainbrownrice crystalhealing holistic patchouli Esalen triplelibra.</p>
+      </div>
+    </section>
+    <section id="section4" data-nav="Section 4">
+      <div class="landing__container">
+        <h2>Section 4</h2>
+        <p>Soy sauce salt miso butter roasted pork slices flavoured oil yuzu seasoned egg toasted sesame seeds Asahikawa Yokohama bamboo slices Hakata kamaboko, leek lard scallions chicken stock mustard greens vinegar Nissin instant cup ramen curry spicy bean paste Tokyo Kumamoto Tokushima. Abura soba kamaboko Kagoshima Wakayama ginger vinegar bamboo slices scallions, roasted pork slices flavoured oil toasted sesame seeds chilli leek butter lard soy sauce, chicken stock Kumamoto Sapporo bean sprouts nori miso.  bean sprouts Hakodate abura soba ginger seasoned egg fish broth chicken stock, roasted pork slices Hakata salt kamaboko leek scallions vinegar mustard greens, lard Asahikawa Nissin instant cup ramen butter Kagoshima pork cubes.</p>
+
+        <p>Toasted sesame seeds Asahikawa rice vinegar Wakayama Hakodate bamboo slices Sapporo Tokyo, roasted pork slices Yokohama kamaboko abura soba leek chopped onions spicy bean paste, chicken stock flavoured oil Tokushima pork cubes miso nori scallions.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="page__footer">
+    <p>&copy Udacity</p>
+  </footer>
+  <!-- link js script -->
+<script src="js/app.js"></script>
+</body>
+</html>
